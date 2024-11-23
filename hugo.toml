@@ -1,0 +1,68 @@
+baseURL = "https://meik2333.com/"
+languageCode = "en-es"
+title = "Apuntatis"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Tati"
+  description = "Breaking things to learn 😋"
+  github = "tatimun"
+  twitter = "titamun"
+  linkedin = "tatianasmunoz"
+  email = "apuntatis@gmail.com"
+  url = "https://github.io/blog"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  avatar = "/images/Ilustración_sin_título.gif"
+  headerIcon = "/images/github-mark-white.png"
+  location = "Argentina"
+  enableGitalk = true
+  enableSearch = true
+
+
+  [params.gitalk]
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
+    repo = "repo"
+    owner = "MeiK2333"
+    admin = "MeiK2333"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/meik2333"
+
+  [[params.links]]
+    title = "Link2"
+    href = "https://meik2333.com"
+    icon = "http://localhost:1313/images/avatar.gif"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
+
+[[menu.main]]
+  name = "readme"
+  url = "/content/readme"
+  weight = 1
