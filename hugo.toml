@@ -12,7 +12,7 @@ pygmentsUseClasses = true
   twitter = "titamun"
   linkedin = "tatianasmunoz"
   email = "apuntatis@gmail.com"
-  url = "https://github.io/blog"
+  url = "https://tatimun.github.io/tatisnote"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
@@ -40,11 +40,11 @@ pygmentsUseClasses = true
 
   [[params.links]]
     title = "Link"
-    href = "https://github.com/meik2333"
+    href = "https://github.com/tatimun"
 
   [[params.links]]
     title = "Link2"
-    href = "https://meik2333.com"
+    href = "https://tatimun.github.io/tatisnote"
     icon = "http://localhost:1313/images/avatar.gif"
 
 [frontmatter]
