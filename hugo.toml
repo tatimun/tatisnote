@@ -45,7 +45,7 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://tatimun.github.io/tatisnote/"
-    icon = "http://localhost:1313/images/avatar.gif"
+    icon = "https://github.com/tatimun/tatinoste/images/avatar.gif"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
