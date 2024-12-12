@@ -35,8 +35,8 @@ pygmentsUseClasses = true
     labels = "gitalk"
     perPage = 15
     pagerDirection = "last"
-    createIssueManually = false
-    distractionFreeMode = true
+    createIssueManually = true
+    distractionFreeMode = false
 
   [[params.links]]
     title = "Link"
@@ -51,7 +51,10 @@ pygmentsUseClasses = true
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [services.googleAnalytics]
-  ID = "UA-123456-789"
+  ID = "UA-123456-799"
+
+[params]
+  enableSearch = true
 
 [outputs]
   home = ["html", "json"]
@@ -60,8 +63,3 @@ pygmentsUseClasses = true
   mediaType = "application/json"
   baseName = "index"
   isPlainText = false
-
-[[menu.main]]
-  name = "readme"
-  url = "/content/readme"
-  weight = 1
