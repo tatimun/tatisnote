@@ -32,11 +32,11 @@ pygmentsUseClasses = true
     owner = "tatimun"
     admin = "tatimun"
     id = "location.pathname"
-    labels = "comments"
+    labels = "gitalk"
     perPage = 15
     pagerDirection = "last"
     createIssueManually = false
-    distractionFreeMode = false
+    distractionFreeMode = true
 
   [[params.links]]
     title = "Link"
@@ -66,3 +66,14 @@ pygmentsUseClasses = true
   name = "readme"
   url = "/content/readme"
   weight = 1
+
+[params]
+  enableSearch = true
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
