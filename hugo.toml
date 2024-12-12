@@ -1,4 +1,4 @@
-
+baseURL = "https://tatimun.github.io/tatisnote/"
 languageCode = "en-es"
 title = "Apuntatis"
 theme = "github-style"
@@ -44,7 +44,7 @@ pygmentsUseClasses = true
 
   [[params.links]]
     title = "Link2"
-    href = "https://tatimun.github.io/tatisnote"
+    href = "https://tatimun.github.io/tatisnote/"
     icon = "http://localhost:1313/images/avatar.gif"
 
 [frontmatter]
