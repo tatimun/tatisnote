@@ -45,14 +45,13 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://tatimun.github.io/tatisnote/"
-    icon = "https://github.com/tatimun/tatinoste/images/avatar.gif"
+    icon = "https://tatimun.github.io/tatisnote/images/avatar.gif"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[services]
-  [services.googleAnalytics]
-    ID = "UA-123456-789"
+[services.googleAnalytics]
+  ID = "UA-123456-789"
 
 [outputs]
   home = ["html", "json"]
@@ -66,14 +65,3 @@ pygmentsUseClasses = true
   name = "readme"
   url = "/content/readme"
   weight = 1
-
-[params]
-  enableSearch = true
-
-[outputs]
-  home = ["html", "json"]
-
-[outputFormats.json]
-  mediaType = "application/json"
-  baseName = "index"
-  isPlainText = false
