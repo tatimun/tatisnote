@@ -22,6 +22,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        env:
+          HUGO_PARAMS_GITALK_CLIENTSECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
