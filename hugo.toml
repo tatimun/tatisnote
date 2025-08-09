@@ -17,8 +17,8 @@ pygmentsUseClasses = true
   rss = true
   lastmod = true
   userStatusEmoji = "😀"
-  favicon = "/images/github.png"
-  avatar = "/images/Ilustración_sin_título.gif"
+  favicon = "images/github.png"
+  avatar = "images/avatar.gif"
   headerIcon = "/images/github-mark-white.png"
   location = "Argentina"
   enableGitalk = true
@@ -27,7 +27,7 @@ pygmentsUseClasses = true
 
   [params.gitalk]
     clientID = "Ov23liygGvPBcLz4XICU"
-    clientSecret = "b0214c0ab7a754c256ec21fd8b211201ccc9658d"
+    clientSecret = ""
     repo = "tatisnote"
     owner = "tatimun"
     admin = "tatimun"
