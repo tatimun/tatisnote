@@ -18,8 +18,8 @@ pygmentsUseClasses = true
   lastmod = true
   userStatusEmoji = "😀"
   favicon = "images/github.png"
-  avatar = "/tatisnote/images/avatar.gif"
-  headerIcon = "/images/github-mark-white.png"
+  avatar = "../images/avatar.gif"
+  headerIcon = "./images/github-mark-white.png"
   location = "Argentina"
   enableGitalk = true
   enableSearch = true
@@ -45,7 +45,7 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://tatimun.github.io/tatisnote/"
-    icon = "https://tatimun.github.io/tatisnote/images/avatar.gif"
+    icon = "https://tatimun.github.io/tatisnote./images/avatar.gif"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]

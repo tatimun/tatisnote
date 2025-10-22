@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50629/tatisnote/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/categories/azure/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/categories/azure/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/tags/azure/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/tags/azure/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/categories/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/categories/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/categories/cloud/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/categories/cloud/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/post/data-factory/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/post/data-factory/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/post/my-first-post/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/post/my-first-post/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/post/links/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/post/links/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/post/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/post/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/tags/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/tags/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/post/terraform-ec2/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/post/terraform-ec2/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:50629/tatisnote/readme/</loc>
-    <lastmod>2025-08-09T01:37:03-03:00</lastmod>
+    <loc>http://localhost:1313/tatisnote/readme/</loc>
+    <lastmod>2025-09-22T21:44:23-03:00</lastmod>
   </url>
 </urlset>

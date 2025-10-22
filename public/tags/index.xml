@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Apuntatis</title>
-    <link>http://localhost:50629/tatisnote/tags/</link>
+    <link>http://localhost:1313/tatisnote/tags/</link>
     <description>Recent content in Tags on Apuntatis</description>
     <generator>Hugo</generator>
     <language>en-es</language>
-    <lastBuildDate>Sat, 09 Aug 2025 01:37:03 -0300</lastBuildDate>
-    <atom:link href="http://localhost:50629/tatisnote/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Sep 2025 21:44:23 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tatisnote/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure</title>
-      <link>http://localhost:50629/tatisnote/tags/azure/</link>
+      <link>http://localhost:1313/tatisnote/tags/azure/</link>
       <pubDate>Wed, 23 Oct 2024 21:14:53 -0300</pubDate>
-      <guid>http://localhost:50629/tatisnote/tags/azure/</guid>
+      <guid>http://localhost:1313/tatisnote/tags/azure/</guid>
       <description></description>
     </item>
   </channel>
