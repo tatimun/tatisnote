@@ -1,62 +1,66 @@
 baseURL = "https://tatimun.github.io/tatisnote/"
-languageCode = "en-es"
+languageCode = "es"
 title = "Apuntatis"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+# 👇 Estas dos opciones deben ir al nivel raíz (no dentro de [params])
+relativeURLs = true
+canonifyURLs = false
+
 [params]
-  author = "Tati"
-  description = "Rompiendo cosas 😋"
-  github = "tatimun"
-  twitter = "titamun"
-  linkedin = "tatianasmunoz"
-  email = "apuntatis@gmail.com"
-  url = "https://tatimun.github.io/apuntatis"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😀"
-  favicon = "images/github.png"
-  avatar = "../images/avatar.gif"
-  headerIcon = "./images/github-mark-white.png"
-  location = "Argentina"
-  enableGitalk = true
-  enableSearch = true
+author = "Tati"
+description = "Rompiendo cosas 😋"
+github = "tatimun"
+twitter = "titamun"
+linkedin = "tatianasmunoz"
+email = "apuntatis@gmail.com"
+url = "https://tatimun.github.io/tatisnote/"
+keywords = "blog, google analytics"
+rss = true
+lastmod = true
+userStatusEmoji = "😀"
+favicon    = "images/github-mark.png"
+avatar     = "images/avatar.gif"
+headerIcon = "images/github-mark-white.png"
 
+location = "Argentina"
+enableGitalk = true
+enableSearch = true
 
-  [params.gitalk]
-    clientID = "Ov23liygGvPBcLz4XICU"
-    clientSecret = ""
-    repo = "tatisnote"
-    owner = "tatimun"
-    admin = "tatimun"
-    id = "location.pathname"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
+[params.gitalk]
+clientID = "Ov23liygGvPBcLz4XICU"
+clientSecret = ""   # en prod, usá uno real o desactivá Gitalk
+repo = "tatisnote"
+owner = "tatimun"
+admin = "tatimun"
+id = "location.pathname"
+labels = "gitalk"
+perPage = 15
+pagerDirection = "last"
+createIssueManually = true
+distractionFreeMode = false
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/tatimun"
+[[params.links]]
+title = "Link"
+href = "https://github.com/tatimun"
 
-  [[params.links]]
-    title = "Link2"
-    href = "https://tatimun.github.io/tatisnote/"
-    icon = "https://tatimun.github.io/tatisnote./images/avatar.gif"
-
+[[params.links]]
+title = "Link2"
+href = "https://tatimun.github.io/tatisnote/"
+icon = "images/avatar.gif"   # antes tenías un punto extra en 'tatisnote.'
+ 
 [frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [services.googleAnalytics]
-  ID = "UA-123456-799"
+ID = "UA-123456-799"
 
 [outputs]
-  home = ["html", "json"]
+home = ["html", "json"]
 
 [outputFormats.json]
-  mediaType = "application/json"
-  baseName = "index"
-  isPlainText = false
+mediaType = "application/json"
+baseName = "index"
+isPlainText = false
